@@ -14,9 +14,21 @@ public class PlayerMovement : MonoBehaviour
     private Vector3 pointDirection;
     private const float STRAIGHT_RANGE = 0.2f;
 
+    PlayerState moveState;
+
+    public void PlayerRollCompleted()
+    {
+        if (moveState != null)
+        {
+            moveState.Completed();
+        }
+    }
+
     // Start is called before the first frame update
     void Start()
     {
+        name = "Player";
+
         rb2d = GetComponent<Rigidbody2D>();
 
         sr = GetComponent<SpriteRenderer>();
@@ -26,14 +38,35 @@ public class PlayerMovement : MonoBehaviour
         Assert.IsNotNull(animator);
 
         pointDirection = new();
+        moveState = null;
     }
 
     // Update is called once per frame
     void Update()
     {
+        if (moveState != null)
+        {
+            if (!moveState.completed)
+            {
+                moveState.Execute();
+                return;
+            }
+
+            moveState = null;
+        }
+
+        CheckActionInput();
         UpdatePosition();
         UpdateDirection(ref pointDirection);
         PlayerAnimation.UpdateAnimation();
+    }
+
+    private void CheckActionInput()
+    {
+        if (Input.GetKeyDown(KeyCode.Space))
+        {
+            moveState = new RollState(10f);
+        }
     }
 
     private void UpdatePosition()
