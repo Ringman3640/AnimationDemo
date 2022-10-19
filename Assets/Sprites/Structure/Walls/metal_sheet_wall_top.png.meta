@@ -70,7 +70,7 @@ TextureImporter:
     maxTextureSize: 2048
     resizeAlgorithm: 0
     textureFormat: -1
-    textureCompression: 3
+    textureCompression: 0
     compressionQuality: 50
     crunchedCompression: 0
     allowsAlphaSplitting: 0
@@ -131,8 +131,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 0470de195873966438e23652bd6db1fa
-      internalID: 1526775233
+      spriteID: 8de67b0d9542cac448d5f6508f5c0c60
+      internalID: -958917011
       vertices: []
       indices: 
       edges: []
@@ -152,8 +152,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 39486eb492c5ecc409acc41e0920bb45
-      internalID: 1604769358
+      spriteID: 8d79d23a2b1b64f4aae017cd739eb003
+      internalID: 480824447
       vertices: []
       indices: 
       edges: []
@@ -173,8 +173,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: f9d8c2311820916409c62d7d1e105ea9
-      internalID: 1235571923
+      spriteID: 71f39ba91553830408922ba7cea33a7f
+      internalID: -1026740634
       vertices: []
       indices: 
       edges: []
@@ -194,14 +194,35 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 204bc04960efef840a6903fc14eb7899
-      internalID: 288789533
+      spriteID: 17ef914834ac4144885dfcfe0094cb1e
+      internalID: -2100850410
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
       name: metal_sheet_wall_top_4
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 32
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 788e6ec59118e504c9715de5d6c75af7
+      internalID: -1096231837
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: metal_sheet_wall_top_5
       rect:
         serializedVersion: 2
         x: 0
@@ -215,14 +236,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: c5360ebaf8b150e46a5f0f0597450879
-      internalID: 180385172
+      spriteID: 3e196e2ddf4c5934c9846db315cf9e5e
+      internalID: -869508345
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: metal_sheet_wall_top_5
+      name: metal_sheet_wall_top_6
       rect:
         serializedVersion: 2
         x: 32
@@ -236,14 +257,35 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 002039c3ed077984e8cc7014dc6206c9
-      internalID: -1146285339
+      spriteID: d903b5031f68a7a4399d9576bef0a8cc
+      internalID: -232132780
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: metal_sheet_wall_top_6
+      name: metal_sheet_wall_top_7
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 0
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9bd1a82b40dcf1b42b580e76d23b7f29
+      internalID: 1102885246
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: metal_sheet_wall_top_8
       rect:
         serializedVersion: 2
         x: 96
@@ -257,8 +299,29 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 0d666876fdcabb94a921170e28057561
-      internalID: 338041415
+      spriteID: b0fbf5176b44ea043a50ed0416ea806e
+      internalID: 1917773295
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: metal_sheet_wall_top_9
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 0
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9e67aad12ae6a7246a2f2d4dc82b7990
+      internalID: 389966021
       vertices: []
       indices: 
       edges: []
@@ -274,13 +337,16 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     nameFileIdTable:
-      metal_sheet_wall_top_5: -1146285339
-      metal_sheet_wall_top_3: 288789533
-      metal_sheet_wall_top_1: 1604769358
-      metal_sheet_wall_top_6: 338041415
-      metal_sheet_wall_top_0: 1526775233
-      metal_sheet_wall_top_4: 180385172
-      metal_sheet_wall_top_2: 1235571923
+      metal_sheet_wall_top_5: -869508345
+      metal_sheet_wall_top_8: 1917773295
+      metal_sheet_wall_top_3: -2100850410
+      metal_sheet_wall_top_1: 480824447
+      metal_sheet_wall_top_7: 1102885246
+      metal_sheet_wall_top_6: -232132780
+      metal_sheet_wall_top_0: -958917011
+      metal_sheet_wall_top_4: -1096231837
+      metal_sheet_wall_top_9: 389966021
+      metal_sheet_wall_top_2: -1026740634
   spritePackingTag: 
   pSDRemoveMatte: 0
   pSDShowRemoveMatteOption: 0
